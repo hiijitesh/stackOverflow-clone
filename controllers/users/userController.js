@@ -52,7 +52,7 @@ const userController = {
             }
             return successResponse(
                 res,
-                userRegistrationData,
+                { username },
                 "user created successfully"
             );
         } catch (error) {
